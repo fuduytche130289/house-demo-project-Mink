@@ -1,0 +1,823 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Unica One', cursive;
+}
+
+@media (max-width: 768px) {
+  .content-1-right .position-img-bottom .img-bottom {
+    display: none;
+  }
+  .content-5 .img-none-padding {
+    position: relative;
+    left: 1px !important;
+  }
+}
+
+@media (max-width: 567px) {
+  .menu .list {
+    display: none !important;
+  }
+  .content-1 .deco-3 {
+    display: none !important;
+  }
+  .text-footer .line-deco-1, .text-footer .line-deco-2,
+  .text-footer .line-deco-3, .text-footer .line-deco-4,
+  .text-footer .line-deco-5 {
+    display: none;
+  }
+}
+
+.banner {
+  position: relative;
+}
+
+.banner .menu .icon {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px;
+}
+
+.banner .menu .icon img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 34px;
+}
+
+.banner .menu .list {
+  height: 114px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner .menu .list a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.banner .text-banner {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.banner .text-banner .text-green {
+  font-family: "SVN-Avant Garde Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+  color: #c4d82e;
+}
+
+.banner .text-banner .text-while {
+  font-family: "SVN-Avant Garde Gothic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner .text-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.banner .text-footer .line-deco-1 {
+  border-bottom: 5px solid orange;
+}
+
+.banner .text-footer .line-deco-2 {
+  border-bottom: 5px solid orangered;
+}
+
+.banner .text-footer .line-deco-3 {
+  border-bottom: 5px solid green;
+}
+
+.banner .text-footer .line-deco-4 {
+  border-bottom: 5px solid red;
+}
+
+.banner .text-footer .line-deco-5 {
+  border-bottom: 5px solid pink;
+}
+
+.banner .img-banner {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1000;
+}
+
+.banner .img-banner img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.banner .deco {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.banner .deco-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.content-1 {
+  position: relative;
+}
+
+.content-1 .content-1-left .p-1 {
+  font-family: "SVN-Avant Garde Gothic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  color: #4f4f4f;
+}
+
+.content-1 .content-1-left .p-2 {
+  font-family: "SVN-Avant Garde Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: justify;
+  color: #4f4f4f;
+}
+
+.content-1 .content-1-left .text-1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.content-1 .content-1-left #number-1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120px;
+  color: #333333;
+}
+
+.content-1 .content-1-left .text-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.content-1 .content-1-left .img-house {
+  padding-top: 85px;
+}
+
+.content-1 .thumb {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.content-1 .thumb img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content-1 .content-1-right .position-img-bottom {
+  position: relative;
+}
+
+.content-1 .content-1-right .position-img-bottom .thumb {
+  overflow: hidden;
+}
+
+.content-1 .content-1-right .position-img-bottom .thumb img {
+  width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content-1 .content-1-right .position-img-bottom .img-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.content-1 .img-start {
+  overflow: hidden;
+  margin-left: -11px;
+  margin-top: 10px;
+}
+
+.content-1 .img-start img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content-1 .deco-3 .thumb {
+  width: 508px;
+  height: 508px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 16%;
+  left: 33%;
+  z-index: -1;
+}
+
+.content-1 .deco-3 .thumb img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content-2 {
+  position: relative;
+}
+
+.content-2 .deco-4 {
+  overflow: hidden;
+}
+
+.content-2 .deco-4 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 100%;
+}
+
+.content-2 .thumb {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-2 .thumb img {
+  width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content-2 .deco-4 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+.content-2 .deco-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.content-2 .deco-5 p {
+  font-family: "SVN-Avant Garde Gothic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 52px;
+  color: #ffffff;
+  position: absolute;
+  top: -60%;
+}
+
+.content-2 .deco-5 .box-1 {
+  margin-right: 20px;
+}
+
+.content-2 .deco-5 .box-1 .text-deco {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.content-2 .deco-5 .box-2 .text-deco {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.content-3 {
+  position: relative;
+  padding-top: 20px;
+  background: #f5f5f5;
+}
+
+.content-3 .deco-8 {
+  position: absolute;
+  right: 0;
+  bottom: -36px;
+}
+
+.content-3 .deco-8 .img {
+  overflow: hidden;
+}
+
+.content-3 .deco-8 .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content-3 p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.content-3 .address span {
+  margin-left: 3px;
+  margin-top: 6px;
+}
+
+.content-4 {
+  position: relative;
+}
+
+.content-4 .content-left {
+  position: relative;
+}
+
+.content-4 .content-left .img {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-4 .content-left .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content-4 .content-left .img-bottom {
+  position: absolute;
+  bottom: 13%;
+  right: 0;
+}
+
+.content-4 .content-right {
+  text-align: center;
+  position: relative;
+}
+
+.content-4 .content-right h1 {
+  font-family: "SVN-Avant Garde Gothic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  color: #4f4f4f;
+  margin-bottom: 20px;
+}
+
+.content-4 .content-right .text-2,
+.content-4 .content-right .text-3 {
+  font-family: "SVN-Avant Garde Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: justify;
+  color: #4f4f4f;
+  margin-top: 50px;
+}
+
+.content-4 .content-right .img {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 140%;
+}
+
+.content-4 .content-right .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content-4 .content-right .deco-5 {
+  overflow: hidden;
+  position: absolute;
+  top: 20%;
+  left: -25%;
+}
+
+.content-4 .content-right .deco-5 img {
+  width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content-4 .deco-6 {
+  overflow: hidden;
+  position: absolute;
+  bottom: -42%;
+  left: 0;
+  right: 46%;
+  z-index: -1;
+}
+
+.content-4 .deco-6 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content-5 {
+  margin-top: 200px;
+  background: #ea5a30;
+  padding: 40px;
+  position: relative;
+}
+
+.content-5 .box-1 h5 {
+  /* T1 */
+  font-family: "SVN-Avant Garde Gothic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  color: #ffffff;
+}
+
+.content-5 .box-1 span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.content-5 .box-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
+.content-5 hr {
+  background-color: #ffffff;
+}
+
+.content-5 .img {
+  overflow: hidden;
+}
+
+.content-5 .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content-5 .img-none-padding {
+  position: relative;
+  left: 39px;
+}
+
+.content-5 .img-deco {
+  position: absolute;
+  overflow: hidden;
+  top: -41px;
+  left: 0;
+}
+
+.content-5 .img-deco img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content-5 .deco-9 {
+  position: absolute;
+  right: 0;
+  bottom: -41px;
+}
+
+.content-5 .deco-10 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  bottom: -265px;
+  left: 0;
+  z-index: -1;
+}
+
+.content-6 .thumb {
+  overflow: hidden;
+}
+
+.content-6 .thumb img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.content-6 .thumb h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-top: 10px;
+}
+
+.content-6 .thumb p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+  position: relative;
+  padding-top: 20px;
+}
+
+.footer .img {
+  overflow: hidden;
+}
+
+.footer .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 100%;
+}
+
+.footer p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+
+.footer h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-transform: uppercase;
+  /* 1 */
+  color: #ffffff;
+}
+
+.footer hr {
+  border: 1px dotted black;
+}
+
+.footer h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer button {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  padding: 4px;
+  color: #ffffff;
+}
+
+.footer .form {
+  position: relative;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+  padding: 40px;
+}
+
+.footer .form h4 {
+  font-family: "SVN-Avant Garde Gothic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.footer .form input {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.footer .form input:focus {
+  outline: none;
+}
+
+.footer .form .input-form {
+  width: 230px;
+}
+
+.footer .form .img-form {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  padding-right: 30px;
+}
+
+.footer .form .img-form img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 100%;
+}
+
+.footer .form button {
+  width: 94px;
+  height: 38px;
+  background: #ea5a30;
+  margin-top: 10px;
+}
+
+.footer .form button:focus {
+  outline: none;
+}
+
+.footer .form .text-1 {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 140%;
+  color: #828282;
+}
+
+.footer .form .text-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+  margin-top: 5px;
+}
+
+.footer .bg-footer {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1000;
+}
+
+.footer .bg-footer img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
